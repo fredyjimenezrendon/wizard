@@ -4,7 +4,7 @@
 
 1. Use MySql 8
 2. Set up DB:
-
+<xmp>
 CREATE DATABASE IF NOT EXISTS `indorse_db` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */;
 USE `indorse_db`;
 
@@ -51,6 +51,7 @@ CREATE TABLE IF NOT EXISTS `user_rol` (
 
 CREATE USER 'indorse'@'localhost' IDENTIFIED BY 'indorse';
 GRANT EXECUTE, PROCESS, SELECT, SHOW DATABASES, SHOW VIEW, INSERT, DELETE, UPDATE  ON *.* TO 'indorse'@'localhost';
+</xmp>
 
 3. If you need to change database host or port go to file ApplicationContextConfig.java 
 
