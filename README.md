@@ -56,7 +56,7 @@ GRANT EXECUTE, PROCESS, SELECT, SHOW DATABASES, SHOW VIEW, INSERT, DELETE, UPDAT
 
 3. If you need to change database host or port go to file ApplicationContextConfig.java 
 
-4. Generate .war file with mvn package
+4. Generate .war file with ```mvn package```
 
 5. Deploy war in your prefered server
 
